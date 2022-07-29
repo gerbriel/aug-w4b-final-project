@@ -1,0 +1,113 @@
+body{
+    margin:0;
+}
+nav{
+    height: 80px;
+    background-color: ;
+}
+.logo{
+    width: 200px;
+}
+
+.nav-item{
+    display: inline-block;
+
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+
+.nav-link{
+    font-family: 'Noto Sans', sans-serif; 
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.left{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.hero{
+    background-image: url('../media/hero.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+    height: 600px;
+}
+.hero-text{
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+.row-one{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    margin-top: 10px;
+}
+.box{
+    display: inline-block;
+}
+.oddbox{
+    background-image: url(https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb);
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 12%;
+}
+.evenbox{
+    background-image: url(https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb);
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 12%;
+}
+.section-title{
+    margin-left: 20px;
+}
+.column{
+    display: inline-block;
+    height: 40vh;
+    width: 33%;
+    background-color: beige;
+}
+
+footer{
+    text-align: center;
+    height: 90px;
+    background-color: navy;
+    padding: 40px;
+}
+
+footer>a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    font-family: sans-serif;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+}
+button:hover{
+    color: white;
+    background-color: navy;
+
+}
+
+.form-section{
+    background-color: blanchedalmond;
+    height: 75vh;
+}
+.form{
+    position: relative;
+    top: 20px;
+    left:30%;
+    border: 1px solid black;
+    width: 50%;
+}
+form{
+    width: 50%;
+}
